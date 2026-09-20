@@ -18,5 +18,27 @@ prod_col = np.prod(arr, axis = 0)
 print(prod_col)
 
 
-''' np'''
+
+
+''' Operations on two array'''
+
+# Sum of two arrays
+
+a1 = np.array([1,2,3,4])
+a2 = np.array([5,6,7,8])
+print(a1 + a2)
+
+
+# Product of two arrays
+
+print( a1 * a2)
+
+
+# Division of two arrays 
+
+print(a1/a2)
+
+# Modulo Division of two arrays
+
+print(a1 % a2)
 
