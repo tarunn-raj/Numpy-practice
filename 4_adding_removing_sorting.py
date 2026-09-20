@@ -23,7 +23,7 @@ print(np.sort(arr,-1)) # sort along the last axis (which is along column in this
 a = np.array([1, 2, 3, 4])
 b = np.array([5, 6, 7, 8])
 
-print(np.concatenate((a,b)))    # all of the input arrays must have the same shape, except in the dimension corresponding to axis (the first, by default).
+print(np.concatenate((a,b)))    # all of the input arrays must have the same shape, except in the dimension corresponding to axis (the first (0-axis), by default) and the dimension of the both arrays must have same. Means in this case the number of rows should be same
 
 
 x = np.array([[1, 2], [3, 4]])
